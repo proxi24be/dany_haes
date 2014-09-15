@@ -28,58 +28,49 @@
   }
 
   	div#pub_vitrine {
-  		margin-bottom: 10px;
+  		margin-bottom: 30px;
         /*max-width:1920px;
         max-height: 1080px;*/
   	}
 
     div#pub_vitrine img {
-     /* max-width:1920px;
-      max-height: 1080px;*/
+        width: 100%;
     }
   </style>
 
   <body>
     <!-- Carousel
     ================================================== -->
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12" style="height: 850px;">
-                <div id="pub_vitrine" class="carousel slide" data-ride="carousel" data-interval="2500">
-                    <!-- Indicators -->
-                    <ol class="carousel-indicators">
-                      <li data-target="#pub_vitrine" data-slide-to="0" class="active"></li>
-                      <li data-target="#pub_vitrine" data-slide-to="1"></li>
-                    </ol>
+    <div id="pub_vitrine" class="carousel slide" data-ride="carousel" data-interval="2500">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#pub_vitrine" data-slide-to="0" class="active"></li>
+          <li data-target="#pub_vitrine" data-slide-to="1"></li>
+        </ol>
 
-                    <!-- Wrapper for slides -->
-                    <div class="carousel-inner">
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
 
-                      <div class="item active">
-                        <img src="images/Pub_2014_Femme_xs_2.jpg" alt="Promo femme">
-                        <div class="carousel-caption">
-                          <form method="get" action="bon/bon_5.pdf">
-                            <button type="submit" class="btn btn-primary btn-lg">Bon de réduction</button>
-                          </form>
-                        </div>
-                      </div>
-
-                      <div class="item">
-                        <img src="images/Pub_2014_Homme_xs_2.jpg" alt="Promo Homme">
-                        <div class="carousel-caption"></div>
-                      </div>
-
-                    </div>
-                    <!-- Controls -->
-                    <a class="left carousel-control" href="#pub_vitrine" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-                    <a class="right carousel-control" href="#pub_vitrine" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-
-                </div>
+          <div class="item active">
+            <img src="images/Pub_2014_Femme_xs_2.jpg" alt="Promo femme">
+            <div class="carousel-caption">
+              <form method="get" action="bon/bon_5.pdf">
+                <button type="submit" class="btn btn-primary btn-lg">Bon de réduction</button>
+              </form>
             </div>
-        </div>
-    </div>
+          </div>
 
-    
+          <div class="item">
+            <img src="images/PUB_2014_Homme_xs_2.jpg" alt="Promo Homme">
+            <div class="carousel-caption"></div>
+          </div>
+
+        </div>
+        <!-- Controls -->
+        <a class="left carousel-control" href="#pub_vitrine" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+        <a class="right carousel-control" href="#pub_vitrine" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+
+    </div>
 
     <!-- Marketing messaging and featurettes
     ================================================== -->
@@ -97,7 +88,7 @@
           <p class="lead">Ouvert depuis plus de 50 ans, le salon Dany De Haes est reconnu pour ses qualités techniques ainsi que ses prix très attractifs et tout cela dans un cadre très convivial . Cédric, le fils, devenu récemment propriétaire des lieux, est connu pour avoir remporté de multiples titres lors de concours en Belgique ainsi qu’en Europe.</p>
         </div>
         <div class="col-md-5" id="image_salons">
-          <img class="featurette-image img-responsive" src="images/salon_xs.png" alt="salon">
+          <img class="featurette-image img-responsive" src="images/salon_xs.jpg" alt="salon">
         </div>
       </div>
 
@@ -108,8 +99,8 @@
           <img class="featurette-image img-responsive" src="images/equipe_xs.JPG" alt="equipe">
         </div>
         <div class="col-md-7">
-          <h2 class="featurette-heading">L'équipe. <span class="text-muted">Jeune et professionnelle.</span></h2>
-          <p class="lead">Dans une très bonne ambiance, cette équipe jeune, professionnelle et avec beaucoup d’expériences vous recevra et vous conseillera en mettant tout en oeuvre pour répondre à vos attentes et tout cela dans le repect de vos cheveux. Des conseils vous seront donnés pour tout style de coiffure allant de la coupe à la couleur ainsi qu’au mèches avec plusieurs nuances.</p>
+          <h2 class="featurette-heading">L'équipe</h2>
+          <p class="lead">Dans une très bonne ambiance, cette équipe jeune, professionnelle et avec beaucoup d’expériences vous recevra et vous conseillera en mettant tout en oeuvre pour répondre à vos attentes et tout cela dans le repect de vos cheveux. Des conseils vous seront donnés pour tout style de coiffure allant de la coupe à la couleur ainsi qu’aux mèches avec plusieurs nuances.</p>
         </div>
       </div>
 
@@ -117,54 +108,46 @@
 
       <div class="row featurette">
         <div class="col-md-7" id="image_coupes">
-          <h2 class="featurette-heading">Quelle coupe pour aujourd'hui ? <span class="text-muted">Votre préférence à vous le choix.</span></h2>
+          <h2 class="featurette-heading">Quelle coupe pour aujourd'hui ? <span class="text-muted">Votre préférence, à vous le choix.</span></h2>
           <p class="lead"></p>
+
           <div class="row">
               	<div class="col-md-2">
-              		<img class="featurette-image img-responsive img-circle" src="images/model4_xs.png" alt="model4">
+              		<img class="featurette-image img-responsive img-circle" src="images/model4_xs.jpg" alt="model4">
               	</div>
               	<div class="col-md-2">
-              		<img class="featurette-image img-responsive img-circle" src="images/model5_xs.png" alt="model5">
-              	</div>
-              	<div class="col-md-2">
-              		<img class="featurette-image img-responsive img-circle" src="images/model6_xs.png" alt="model6">
+              		<img class="featurette-image img-responsive img-circle" src="images/model6_xs.jpg" alt="model6">
               	</div>
 	          	<div class="col-md-2">
-	          		<img class="featurette-image img-responsive img-circle" src="images/model9_xs.png" alt="model9">
+	          		<img class="featurette-image img-responsive img-circle" src="images/model9_xs.jpg" alt="model9">
 	          	</div>
           </div>
           <div class="row" style="margin-top:10px;">
 	          	<div class="col-md-2">
-	          		<img class="featurette-image img-responsive img-circle" src="images/model10_xs.png" alt="model10">
+	          		<img class="featurette-image img-responsive img-circle" src="images/model10_xs.jpg" alt="model10">
 	          	</div>
 	          	<div class="col-md-2">
-	          		<img class="featurette-image img-responsive img-circle" src="images/model11_xs.png" alt="model11">
+	          		<img class="featurette-image img-responsive img-circle" src="images/model11_xs.jpg" alt="model11">
                 </div>
                 <div class="col-md-2">
-                    <img class="featurette-image img-responsive img-circle" src="images/model3_xs.png" alt="model3">
-                </div>
-                <div class="col-md-2">
-                    <img class="featurette-image img-responsive img-circle" src="images/model7_xs.png" alt="model7">
+                    <img class="featurette-image img-responsive img-circle" src="images/model3_xs.jpg" alt="model3">
                 </div>
           </div>
           <div class="row" style="margin-top:10px;">
                 <div class="col-md-2">
-                    <img class="featurette-image img-responsive img-circle" src="images/model13_xs.png" alt="model13">
+                    <img class="featurette-image img-responsive img-circle" src="images/model7_xs.jpg" alt="model7">
                 </div>
-	          	<div class="col-md-2">
-	          		<img class="featurette-image img-responsive img-circle" src="images/model12_xs.png" alt="model12">
-	          	</div>
-	          	<div class="col-md-2">
-	          		<img class="featurette-image img-responsive img-circle" src="images/model8_xs.png" alt="model8">
-	          	</div>
-	          	<div class="col-md-2">
-	          		<img class="featurette-image img-responsive img-circle" src="images/model13_xs.png" alt="model13">
-	          	</div>
+                <div class="col-md-2">
+                    <img class="featurette-image img-responsive img-circle" src="images/model12_xs.jpg" alt="model12">
+                </div>
+                <div class="col-md-2">
+                    <img class="featurette-image img-responsive img-circle" src="images/model8_xs.jpg" alt="model8">
+                </div>
           </div>
 
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive" src="images/model1_xs.png" alt="model1">
+          <img class="featurette-image img-responsive" src="images/model1_xs.jpg" alt="model1">
         </div>
       </div>
 
@@ -223,7 +206,7 @@
         function salonImages() 
         {
             var salons = [
-                "salon_xs.png",
+                "salon_xs.jpg",
                 "salon_0001.jpg", 
                 "salon_0003.jpg",
                 "salon_0005.jpg",
@@ -252,19 +235,16 @@
         function coupeImages()
         {
             var coupes = [
-                "model10_xs.png",
-                "model11_xs.png",
-                "model12_xs.png",
-                "model13_xs.png",
-                "model14_xs.png",
-                "model1_xs.png",
-                "model3_xs.png",
-                "model4_xs.png",
-                "model5_xs.png",
-                "model6_xs.png",
-                "model7_xs.png",
-                "model8_xs.png",
-                "model9_xs.png"
+                "model10_xs.jpg",
+                "model11_xs.jpg",
+                "model12_xs.jpg",
+                "model14_xs.jpg",
+                "model3_xs.jpg",
+                "model4_xs.jpg",
+                "model6_xs.jpg",
+                "model7_xs.jpg",
+                "model8_xs.jpg",
+                "model9_xs.jpg"
             ];
 
             try {
