@@ -27,8 +27,10 @@
     font-family: 'MV Boli';
   }
 
-    div#pub_vitrine img {
-        width: 100%;
+    div#pub_vitrine {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
     }
   </style>
 
@@ -107,7 +109,7 @@
 
           <div class="row">
               	<div class="col-md-2">
-              		<img class="featurette-image img-responsive img-circle" src="images/model4_xs.jpg" alt="model4">
+              		<img class="featurette-image img-responsive img-circle" src="images/model13_xs.jpg" alt="model4">
               	</div>
               	<div class="col-md-2">
               		<img class="featurette-image img-responsive img-circle" src="images/model6_xs.jpg" alt="model6">
@@ -234,7 +236,7 @@
                 "model12_xs.jpg",
                 "model14_xs.jpg",
                 "model3_xs.jpg",
-                "model4_xs.jpg",
+                "model13_xs.jpg",
                 "model6_xs.jpg",
                 "model7_xs.jpg",
                 "model8_xs.jpg",
@@ -256,6 +258,16 @@
                 temp_coupes = [];
             }
         }
+
+        // function coupeImages()
+        // {
+        //     var temp = [];
+        //     $("#image_coupes").find("div.col-md-2").each(function() {
+        //         var name = $(this).find("img").attr("src");
+        //         temp.push(name.substr(7));
+        //     });
+        //     console.log(temp);
+        // }
 
         setInterval(function() {salonImages()}, 3500);
         coupeImages();
