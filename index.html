@@ -82,7 +82,7 @@
           <p class="lead">Ouvert depuis plus de 50 ans, le salon Dany De Haes est reconnu pour ses qualités techniques ainsi que ses prix très attractifs et tout cela dans un cadre très convivial . Cédric, le fils, devenu récemment propriétaire des lieux, est connu pour avoir remporté de multiples titres lors de concours en Belgique ainsi qu’en Europe.</p>
         </div>
         <div class="col-md-5" id="image_salons">
-          <img class="featurette-image img-responsive" src="images/salon_xs.jpg" alt="salon">
+          <img class="featurette-image img-responsive" src="images/salon_2_xs.jpg" alt="salon">
         </div>
       </div>
 
@@ -98,9 +98,9 @@
         </div>
       </div>
 
-      <hr class="featurette-divider">
+      <!-- <hr class="featurette-divider"> -->
 
-      <div class="row featurette">
+      <!-- <div class="row featurette">
         <div class="col-md-7" id="image_coupes">
           <h2 class="featurette-heading">Quelle coupe pour aujourd'hui ? <span class="text-muted">Votre préférence, à vous le choix.</span></h2>
           <p class="lead"></p>
@@ -143,7 +143,7 @@
         <div class="col-md-5">
           <img class="featurette-image img-responsive" src="images/model1_xs.jpg" alt="model1">
         </div>
-      </div>
+      </div> -->
 
       <hr class="featurette-divider">
 
@@ -257,19 +257,11 @@
             }
         }
 
-        // function coupeImages()
-        // {
-        //     var temp = [];
-        //     $("#image_coupes").find("div.col-md-2").each(function() {
-        //         var name = $(this).find("img").attr("src");
-        //         temp.push(name.substr(7));
-        //     });
-        //     console.log(temp);
-        // }
-
         setInterval(function() {salonImages()}, 3500);
-        coupeImages();
-        setInterval(function() {coupeImages()}, 3500);
+        
+        //coupeImages();
+        //setInterval(function() {coupeImages()}, 3500);
+
     </script>
   </body>
 </html>
